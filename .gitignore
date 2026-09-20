@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Raw hourly OHLCV files are ~5-10MB each and easy to re-download (see
+# data/README.md) -- keep the repo lean, don't commit them.
+data/btc_hourly.csv
+data/eth_hourly.csv
+
+.DS_Store
