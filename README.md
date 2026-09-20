@@ -9,7 +9,7 @@ purged and embargoed walk-forward validation, and ranked by out-of-sample
 Sharpe net of costs. Two of the three are correctly rejected.
 
 That last sentence is the point of this repo. It's easy to write a backtest
-that "works" — it's much harder to build the validation machinery that
+that "works", it's much harder to build the validation machinery that
 tells you when it doesn't, and to report that honestly instead of tuning
 until it does. Everything below is real data and real numbers; nothing is
 simulated or cherry-picked.
