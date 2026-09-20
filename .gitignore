@@ -11,3 +11,7 @@ data/btc_hourly.csv
 data/eth_hourly.csv
 
 .DS_Store
+
+# Derived backtest output -- regenerate with `python3 run_backtest.py`
+output/
+
